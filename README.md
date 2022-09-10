@@ -16,9 +16,10 @@ Written in Python and R Code
 - map-reduce java code
 
 # Various Machine Learning Assignments 
--Improving various algorithms commonly used 
+- Improving various algorithms commonly used 
 # Linear Algebra Matrix Solver
 - Gaussian Elimation Solver for 4x4 matrix
+- Improving Code accounting for pivots
 
 # Game ruin Problem Simulator
 - Example of using game ruin problemn for Financial Investments
@@ -26,4 +27,5 @@ Written in Python and R Code
 # Stock Market Analysis
 - Computing Dividened Using R
 # Future Sales Predictor
+-ML in R to predict future sales
 # Short Coding Problems
