@@ -25,5 +25,5 @@ Written in Python and R Code
 
 # Stock Market Analysis
 - Computing Dividened Using R
-
-# Coding Problems
+# Future Sales Predictor
+# Short Coding Problems
