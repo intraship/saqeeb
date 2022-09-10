@@ -1,7 +1,7 @@
-# saqeeb
-Professional
+# Muhammad Saqeeb
+Professional Coding Experience 
 
-Collection of Data Analysis Projects Including code
+Big Data Analysis, Data Mining, Machine Learning, Statistical Applications
 
 Written in Python and R Code
 
@@ -16,7 +16,7 @@ Written in Python and R Code
 - map-reduce java code
 
 # Various Machine Learning Assignments 
-
+-Improving various algorithms commonly used 
 # Linear Algebra Matrix Solver
 - Gaussian Elimation Solver for 4x4 matrix
 
