@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<title>HW4</title>
+</head>
+
+<body>
+
+<p>By Muhammad Saqeeb</p>
+
+
+
+<!--begin.rcode
+#1 IBM
+ibm <- read.csv("C:/Users/Administrator/data/IBM.csv") 
+#2 MSFT
+MSFT  <- read.csv("C:/Users/Administrator/data/MSFT.csv") 
+#3 google
+GOOG <- read.csv("C:/Users/Administrator/data/GOOG.csv") 
+#4 apple
+AAPL <- read.csv("C:/Users/Administrator/data/AAPL.csv") 
+#5 amazon
+AMZN <- read.csv("C:/Users/Administrator/data/AMZN.csv") 
+#6 meta (fb)
+FB <- read.csv("C:/Users/Administrator/data/META.csv") 
+#use lag and lead from dplyr
+library(dplyr) 
+end.rcode-->
+
+<p>Computing Dividends</p>
+
+<!--begin.rcode
+#Function for Daily dividened
+caldiv <- function(df) {
+    df %>% mutate(
+        change = df$Close - lag(df$Close),
+        Adj.change = df$Adj.Close - lag(df$Adj.Close),
+        diff = change - Adj.change,
+        dividend = diff * df$Close,
+    )
+}
+end.rcode-->
+
+<p>1. ibm</p>
+
+<!--begin.rcode
+x <- ibm
+ibm <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+ibm
+end.rcode-->
+
+<p>2. amazon</p>
+
+<!--begin.rcode
+x <- AMZN
+AMZN <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+AMZN
+end.rcode-->
+
+<p>3. google</p>
+
+<!--begin.rcode
+x <- GOOG
+GOOG <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+GOOG
+end.rcode-->
+
+<p>4. facebook</p>
+
+<!--begin.rcode
+x <- FB
+FB <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+FB
+end.rcode-->
+
+<p>5. microsoft</p>
+
+<!--begin.rcode
+x <- MSFT
+MSFT <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+MSFT
+end.rcode-->
+
+<p>6. apple</p>
+
+<!--begin.rcode
+x <- AAPL
+AAPL <- filter(select(caldiv(x), Date, dividend), ! is.na(dividend))
+AAPL
+end.rcode-->
+
+
+</body>
+</html>
