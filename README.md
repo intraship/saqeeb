@@ -5,7 +5,7 @@ Big Data Analysis, Data Mining, Machine Learning, Statistical Applications
 
 Written in Python and R Code
 
-# Breast Cancer Project
+# Breast Cancer Analysis
 - Includes PPT
 - medical imaging analysis binomial matrix 
 - High Accuracy at Diferienating maligilant to beign tumors
