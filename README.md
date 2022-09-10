@@ -12,13 +12,15 @@ Written in Python and R Code
 2. Flight Data analysis
 -Big Data Using Apache Hadoop HDFS and Oozie WorkFlow
 - 3 map-reducers jobs
-3. Various Assignments Improving Algos
-
+3. Various Machine Learning Assignments 
 
 4. Linear Algebra Matrix Solver
+-Gaussian Elimation Solver for 4x4 matrix
 
 5. Game ruin Problem Simulator
 -Example of using game ruin problemn for Financial Investments
 
 6. Stock Market Analysis
 - Computing Dividened Using R
+
+7. Coding Problems
