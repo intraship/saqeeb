@@ -5,13 +5,13 @@ Collection of Data Analysis Projects Including code
 
 Written in Python and R Code
 
-Breast Cancer Project
+1. Breast Cancer Project
 -Includes PPT
 
-Credit card analysis
+2. Credit card analysis
 
-Various Assignments Improving Algos
+3. Various Assignments Improving Algos
 -
 
-Linear Algebra Matrix Solver
+4. Linear Algebra Matrix Solver
 
