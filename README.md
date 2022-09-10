@@ -20,3 +20,5 @@ Written in Python and R Code
 5. Game ruin Problem Simulator
 -Example of using game ruin problemn for Financial Investments
 
+6. Stock Market Analysis
+- Computing Dividened Using R
